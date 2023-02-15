@@ -1,0 +1,145 @@
+---
+title: "Rapport Indivuel OPEN"
+author: "Océane GHESQUIER"
+date: "4ème année -`r format(Sys.time(), '%d %B %Y')`"
+output:
+  
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+    number_sections: no
+    highlight: tango
+  html_document: default
+
+
+bibliography: IA OPEN.bib
+csl: isara-iso-690.csl
+---
+Les intelligences artificielles ont eu du succès depuis quelques années, mais elles reviennent dans la tendance encore plus depuis quelques semaines. En effet, un outil informatique appelé ChatGPT fait beaucoup parler de lui. Cette intelligence artificielle est capable de dialoguer avec quelqu’un, d’écrire des articles, de composer des chansons voir même du code ! 
+Mais qu’est-ce qu’une IA ?
+
+```{r IA, echo=FALSE, out.width = '100%', fig.align = "center",fig.cap=" L'IA un enjeu pour le monde ? », EPITECH"}
+knitr::include_graphics("IA.png")
+```
+
+
+## I/ Tout savoir sur l'Intelligence Artificielle (IA)
+
+# *a) Quelles sont les origines de l'intelligence artificielle ?*
+
+Depuis au moins le premier siècle avant notre ère, l'Homme a voulu se pencher sur la création de machines capables d'imiter, fonctionner tel que l’être humain. Le terme « intelligence artificielle » est apparu en 1955 et son auteur est John McCarthy. John McCarthy et certains de ses collaborateurs ont organisé une conférence intitulée « Dartmouth Summer Research Project on Artificial Intelligence » qui a permis de faire voir le jour au machine learning, au deep learning, aux analyses prédictives et, depuis peu, aux analyses prescriptives. Un nouveau domaine d'étude est également apparu : la science des données. Ces intelligences artificielles sont donc loin d’être récentes mais le développement des nouvelles technologies a permis de les mettre en avant au cours du temps. 
+
+# *b) Mais qu'est-ce que l'IA ?*
+
+L’intelligence artificielle, ou IA, est un outil informatique programmé pour imiter les êtres humains. Ceci implique donc la création de systèmes informatiques capables de reproduire des tâches effectuer par l’homme. Aujourd’hui, l’IA peut résoudre des calculs, conduire, parler, faire de la reconnaissance de la parole, de la prise de décision, voir ou encore traiter du langage naturel. Ces IA sont globalement représentées par des robots qui ont endossent le rôle d’assistants dans de nombreux domaines de notre quotidien. 
+
+Pour y parvenir, il existe trois composants nécessaires :
+-	Des systèmes informatiques
+-	Des données avec des systèmes de gestion
+-	Des algorithmes d'IA avancés (code)
+Pour se rapprocher le plus possible du comportement humain, l'intelligence artificielle a besoin d'une quantité de données et d'une capacité de traitement très élevées et qui doivent être continuellement être mises à jour. 
+
+# *c) Comment fonctionne l’intelligence artificielle ?*
+
+Les machines dotées d'une intelligence artificielle ont la capacité de mémoriser des comportements afin de répondre à des cas concrets. En effet, toute cette mémoire leur permet de résoudre des problèmes et d’agir correctement face à à telle ou telle situation. Cet apprentissage se réalise donc à l'aide de bases de données et d'algorithmes. Il s’agit d’un travail complexe qui aide la machine à savoir quels outils, données qu’il doit utiliser pour offrir des solutions à l’utilisateur et donc bien agir. 
+En réalité, tout repose sur un système de statistiques sophistiqué et très performant qui amène la machine à prendre une décision ou à avoir le comportement attendu face au problème auquel elle fait face. Pour mesurer son degré d'intelligence, une machine est soumise à un test : test de Turing. Ce test porte le nom de l'inventeur de l'IA, Alan Turing. Ce mathématicien britannique fut l'un des premiers à se demander, en 1950, si une machine était capable de penser. Le test de Turing consiste à converser avec la machine et à lui demander de créer quelque chose avec des critères précis qu'elle se doit de respecter.
+
+## II/ L’utilisation des IA dans notre monde :
+
+A l’heure actuelle, les intelligences artificielles sont présentes dans de nombreux robots. Elles sont capables d’être présentes dans des domaines innombrables. Par exemple, elles peuvent assister les médecins en choisissant le bon médicament à la suite de l’analyse de résultats. Ou encore, toutes les machines comme les montres connectées, les réseaux sociaux et les correcteurs de textes. 
+
+# *a) Les catégories d’IA*
+
+Les Intelligences Artificielles peuvent être divisées en trois différentes catégories selon leurs capacités et leur autonomie à reproduire l’humain : 
+
+```{r IA2, echo=FALSE, out.width = '100%', fig.align = "center",fig.cap=" Les types d'IA », MAILABS"}
+knitr::include_graphics("IA2.png")
+```
+
+ 1.	Les IA faibles ou étroites : elles sont spécialisées dans une tâche spécifique, comme la reconnaissance de la parole, la reconnaissance d'image, ou la recommandation de produits. Cette IA n'a pas de conscience de soi, elle ne peut pas apprendre d'elle-même et elle nécessite des instructions précises pour fonctionner.
+
+ 2.	Les IA générales ou fortes : elles sont capables de comprendre, apprendre et résoudre des problèmes comme pourrait le faire un être humain. L'IA forte a une capacité d'apprentissage et d'adaptation élevée, elle peut prendre des décisions, raisonner, et s'adapter à de nouveaux environnements. Cependant, l'IA forte reste un sujet de recherche actif et n’est pas encore très répandue. 
+
+ 3.	L'IA surhumaine : C'est une IA qui dépasse les capacités cognitives de l'être humain, elle est capable de résoudre des problèmes qui sont hors de portée de l'esprit humain. L'IA surhumaine est encore un concept théorique, et son existence reste incertaine.
+
+# *b)Les différents types d’IA*
+
+Il existe plusieurs types d'intelligence artificielle (IA), voici quelques exemples :
+
+- L'IA symbolique : utilise des règles logiques pour résoudre des problèmes et effectuer des tâches.
+
+- L'IA connexionniste : imite le fonctionnement du cerveau humain en utilisant des réseaux de neurones artificiels pour apprendre et prendre des décisions.
+
+- L'IA évolutionnaire : utilise des algorithmes évolutifs pour résoudre des problèmes et améliorer les résultats au fil du temps.
+
+- L'IA bayésienne : utilise des statistiques pour prendre des décisions en se basant sur des probabilités.
+
+- L'IA hybride : combine différentes techniques d'IA pour résoudre des problèmes complexes.
+
+Il existe également d'autres types d'IA, tels que l'IA basée sur les règles, l'IA basée sur les connaissances, l'IA de traitement du langage naturel, l'IA de vision par ordinateur, l'IA de robotique, l'IA conversationnelle, etc.
+
+# *c)Leur utilisations *
+
+L'intelligence artificielle (IA) est présente dans notre quotidien à de nombreux domaines : pour automatiser des tâches, améliorer l'efficacité, la précision et la rapidité des processus et prendre des décisions plus éclairées. De nos jours, elle est un outil indispensable dans les entreprises en allant jusqu’à prendre la place de l’humain dans certains cas. 
+Juste après, on peut retrouver des exemples de domaines dans lesquels l’IA a correctement trouvé sa place :
+
+Dans l'industrie manufacturière, l'IA peut être utilisée pour améliorer la qualité des produits, optimiser la production et réduire les coûts.
+Dans le domaine de la santé, l'IA peut être utilisée pour aider au diagnostic des maladies, prévoir l'évolution de l'état de santé des patients, améliorer la qualité des soins et optimiser la gestion des ressources.
+Dans le secteur bancaire, l'IA peut être utilisée pour détecter la fraude, évaluer les risques de crédit et améliorer les processus de traitement des demandes.
+Dans le domaine du commerce électronique, l'IA peut être utilisée pour personnaliser les recommandations de produits en fonction des préférences des clients, améliorer la satisfaction des clients et augmenter les ventes.
+Dans l'industrie de l'automobile, l'IA peut être utilisée pour améliorer la sécurité des véhicules, optimiser la consommation de carburant et améliorer l'expérience de conduite.
+
+Ci- dessous, nous pourrons voir que cette intelligence artificielle ne cesse d’évoluer et d’essayer de rendre facile la vie pour les êtres humains. 
+
+*Mais à quoi sert l’IA ?*
+
+Les domaines d'application de l'intelligence artificielle sont vastes comme on a pu le voir précédemment. Elle est présente par tout et sous différentes formes : dans les appareils photo des smartphones, au sein des robots des entreprises, dans nos ordinateurs etc. 
+Prenant l’exemple de la reconnaissance faciale, elle est permise grâce à une IA qui est capable de reconnaitre un visage pour transmettre cette information à un smartphone pour accorder l’accès à un utilisateur préalablement reconnu. 
+
+Pour résumé, l’IA est utilisée afin d’améliorer la productivité, la sécurité, la qualité, la précision et l'efficacité des processus. 
+
+## III/ L'exemple de ChatGPT 
+
+Ainsi, le meilleur exemple actuel fait énormémement parler de lui est ChatGPT. Cet outil est une IA qui permet grâce à un interface d'avoir des textes intégralement rédigé lorsqu'on lui pose une quuestion. 
+C'est pour cela que les descriptions suivantes vont être basées sur les réponse que lui même propose :
+
+*Qu'est ce que ChatPGT ?*
+
+ChatGPT est une intelligence artificielle conçue par OpenAI pour répondre à une variété de questions et fournir des informations et des réponses utiles en utilisant le traitement du langage naturel, l'apprentissage automatique et d'autres techniques d'IA. Son rôle est de fournir des réponses claires, précises et informatives aux questions posées, en fonction des connaissances et des données disponibles dans son ensemble de données.
+
+*A quoi sert ChatGPT ?*
+
+Il a été conçu pour aider les gens à répondre à leurs questions et à trouver des informations pertinentes sur une grande variété de sujets. Les gens peuvent lui poser des questions sur des sujets tels que la science, la technologie, l'histoire, la géographie, la culture générale et bien plus encore, et je ferai de mon mieux pour vous fournir des réponses claires, précises et informatives. Son but est de rendre l'information accessible à tous, de manière rapide et efficace, en utilisant l'intelligence artificielle pour analyser, trier et présenter les informations de manière utile et compréhensible.
+
+
+## IV/ Conclusion
+
+Pour résumé, l'IA est un outil d'avenir pour le monde. Elle est utilisée afin d’améliorer la productivité, la sécurité, la qualité, la précision et l'efficacité des processus au sein de notre quotidien. Présente dans le moindre apparareil que l'on utilise mais cette omniprésence n'a pas que des bons côtés. En effet, il existe des dangers avec l'IA tel que :
+
+- La manipulation et la désinformation : L'IA peut être utilisée pour créer des contenus trompeurs ou manipulés ce qui pourrait avoir des conséquences graves sur la confiance et la crédibilité des informations.
+
+- La défaillance des systèmes de l’IA : cela peut renforcer un risque classique dans les entreprises avec la défaillance et l'interruption de l’activité et/ou des dysfonctionnements majeurs (pertes de données, erreurs, informations incohérentes, etc.).
+Ceci rentre dans le cadre de la sécurité des données qui pourraient être utilisées pour mener des attaques ciblées contre des systèmes critiques. 
+
+- Les risques humains et de l'emploi : l'utilisation massive d’IA dans la société va modifier le marché de l’emploi avec la disparation de certains emplois et la création de nouveaux. Ces changements vont réduire les besoins en personnel sur certains types de tâches comme celles épétitives et prévisibles.
+
+- La responsabilité et l'éthique : en effet, l'IA peut prendre des décisions et avoir des conséquences de ces décisions pour les personnes concernées. 
+
+## V/ Bibliographie
+
+[Sans date]. [enligne]. Disponible à l’adresse: https://www.netapp.com/fr/artificial-intelligence/what-is-artificial-intelligence/
+
+2023. C’est quoi, l’intelligence artificielle? [enligne]. Disponible à l’adresse: https://www.1jour1actu.com/technologies/cest-quoi-lintelligence-artificielle-2
+
+[Sans date]. ChatGPT [enligne]. Disponible à l’adresse: https://chat.openai.com/chat/e762a0ca-7519-4e29-9745-7212d57d9055
+
+[Sans date]. Intelligence artificielle: quelles évolutions pour les profils de risques des entreprises? [enligne]. Disponible à l’adresse: https://www2.deloitte.com/fr/fr/pages/risque-compliance-et-controle-interne/articles/intelligence-artificielle-quelles-evolutions-pour-profils-de-risques-des-entreprises.html
+
+[Sans date]. Intelligence artificielle: qu’est-ce que c’est? [enligne]. Disponible à l’adresse: https://www.futura-sciences.com/tech/definitions/informatique-intelligence-artificielle-555/
+
+[Sans date]. Quels sont les 3 types d’IA? [enligne]. Disponible à l’adresse: https://www.netapp.com/fr/artificial-intelligence/what-is-artificial-intelligence/
+
+ZEITOUN, Charline, 2018. Peut-on faire confiance à l’intelligence artificielle? [enligne]. 25 janvier 2018. Disponible à l’adresse: https://lejournal.cnrs.fr/articles/peut-faire-confiance-a-lintelligence-artificielle
+
+
+
